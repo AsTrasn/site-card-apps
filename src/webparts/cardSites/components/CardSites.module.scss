@@ -1,0 +1,86 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.cardSites {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.card{
+  background-color: #FFF;
+  min-height: 160px;
+  padding: 0.3rem;
+  border-radius: 10px;
+  height: 205px;
+}
+
+.titleCard{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: nowrap;
+  display: -ms-flexbox;
+  -ms-flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.logo{
+  padding-right: 2rem;
+  width: 40%;
+  height: 40%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.links{
+  display: flex;
+}
+
+.link{
+  width: 45%;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  color: #182983;
+  border-radius: 10px;
+  background-color: #f3f2f1;
+  text-align: center;
+}
+
+.link:hover{
+  background: #182983;
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .flex{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    padding: none;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

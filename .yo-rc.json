@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "sites-card",
+    "libraryId": "ec07fc64-a617-4b82-b1e3-ddcb582c21e8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sites-card",
+    "solutionShortDescription": "sites-card description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

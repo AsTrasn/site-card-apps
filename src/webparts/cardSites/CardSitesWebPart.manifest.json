@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "194f1988-0ee2-4bbc-93e4-570d484f7063",
+  "alias": "CardSitesWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "1.0.1",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "card-sites" },
+    "description": { "default": "card-sites description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Integer sollicitudin ligula felis, eu congue purus cursus iaculis. Cras id tincidunt orci, ut semper.",
+      "image":"https://cdn-icons.flaticon.com/png/512/696/premium/696755.png?token=exp=1659455554~hmac=9cb2757a8e55357dcdf9ec0196432b5b", 
+      "publicLink": "https://cdn-icons.flaticon.com/png/512/696/premium/696755.png?token=exp=1659455554~hmac=9cb2757a8e55357dcdf9ec0196432b5b",
+      "privateLink": "",
+      "title": "Aplicación de prueba"
+    }
+  }]
+}
